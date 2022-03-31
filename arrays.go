@@ -27,6 +27,8 @@ func main() {
 	newList[8] = "Solaris"
 
 	fmt.Println(newList)
+	fmt.Println(newList[:3])
+	fmt.Println(newList[3:6])
 	fmt.Println(newList[6:])
 
 }
